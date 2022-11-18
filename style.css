@@ -1,0 +1,67 @@
+#home{
+    background: linear-gradient(rgb(5, 53, 65) 0%,rgb(128, 235, 194) 100%);
+    padding-bottom: 40px;
+    z-index: 10;
+}
+
+#profile{
+    border-radius: 500px;
+    width: 450px;
+    height: 550px;
+    border: black 10px double;
+}
+
+#name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.line{
+    background-color: black;
+    width: 150px;
+    height: 5px;
+    margin-top: -40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.menu{
+list-style: none;
+position: fixed;
+top: 0px;
+left: 20px;
+z-index: 100;
+cursor: pointer;
+}
+
+.links{
+font-weight: bold;
+float: left;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+font-family: 'Dancing Script', cursive;
+}
+
+.links a{
+color: black;
+font-size: 30px;
+text-decoration: none;
+}
+
+.links a:hover{
+    color: darkblue;
+    background-color: white;
+    font-size: 40px;
+}
+
+#copyright_footer{
+    background-color: grey;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
